@@ -31,7 +31,6 @@
     ]
   },
   "mixins": [
-    "emotecraft3.mixins.json"
   ],
 
   "depends": {
