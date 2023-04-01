@@ -1,32 +1,37 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "emotecraft3",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Emotecraft 3.0",
+  "description": "Emotecraft for a simpler, better age",
   "authors": [
-    "Me!"
+    "KosmX"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://kosmx.dev/",
+    "sources": "https://github.com/KosmX/emotecraft3.0"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       {
         "adapter": "kotlin",
-        "value": "net.fabricmc.example.ExampleModKt::onInitialize"
+        "value": "dev.kosmx.emotecraft3.ModLoader"
+      }
+    ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.kosmx.emotecraft3.client.ClientModLoader"
       }
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "emotecraft3.mixins.json"
   ],
 
   "depends": {
