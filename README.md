@@ -1,9 +1,8 @@
-# Fabric Example Mod
+# Emotecraft 3.0 meme  
+> https://modrinth.com/mod/emotecraft-3.0  
 
-## Setup
+---
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+It is no longer April fools day, but this project can stay as a Player Animator example mod ;D  
+Feel free to read its source code and learn from it.
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
